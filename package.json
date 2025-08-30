@@ -1,0 +1,46 @@
+{
+  "name": "@yuntijs/dom-helpers",
+  "version": "0.1.0",
+  "description": "A TypeScript library for advanced DOM element height calculations with support for CSS Grid, Flexbox, and complex nested layouts",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build",
+    "pub": "npm publish && cnpm sync @yuntijs/dom-helpers"
+  },
+  "keywords": [
+    "dom",
+    "height",
+    "calculation",
+    "css-grid",
+    "flexbox",
+    "typescript",
+    "browser",
+    "layout",
+    "measurement",
+    "dom-helpers",
+    "content-height",
+    "element-height",
+    "web-components",
+    "frontend",
+    "ui"
+  ],
+  "authors": [
+    "zhang.pc3@gmail.com"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "father": "^4.6.3"
+  }
+}
